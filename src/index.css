@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", "Nunito", sans-serif;
+  --color-primary: #FF6B6B;
+  --color-secondary: #FFD93D;
+  --color-dark-bg: #1A0F00;
+  --color-card-bg: rgba(255, 107, 107, 0.1);
+  --color-card-border: rgba(255, 217, 61, 0.3);
+}
+
+@layer base {
+  body {
+    background-color: var(--color-dark-bg);
+    color: #FFFFFF;
+    font-family: var(--font-sans);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+}

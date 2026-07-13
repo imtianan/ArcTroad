@@ -1,0 +1,6 @@
+{
+  "name": "ArcTroad",
+  "description": "ArcTroad is a digital pocket money platform on Arc Testnet, enabling parents to send funds to their kids instantly or lock them for a future date.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
